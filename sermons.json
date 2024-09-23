@@ -1,0 +1,33 @@
+{
+  "meetings": [
+    {
+      "title": "Crusade Meeting 1",
+      "description": "Description of meeting 1",
+      "imageUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+      "videos": [
+        {
+          "title": "Sermon 1",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+          "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
+        },
+        {
+          "title": "Sermon 2",
+         "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+          "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
+        }
+      ]
+    },
+    {
+      "title": "Crusade Meeting 2",
+      "description": "Description of meeting 2",
+      "imageUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+      "videos": [
+        {
+          "title": "Sermon 3",
+         "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+          "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
+        }
+      ]
+    }
+  ]
+}
