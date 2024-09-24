@@ -1,31 +1,31 @@
 {
   "meetings": [
     {
-      "title": "Crusade Meeting 1",
-      "description": "Description of meeting 1",
+      "title": "Healing Crusades",
+      "description": "freedom gospel & healing crusades",
       "imageUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
       "videos": [
         {
-          "title": "Sermon 1",
+          "title": "Day 1",
           "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
           "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
         },
         {
-          "title": "Sermon 2",
+          "title": "Day 2",
          "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
           "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
         }
       ]
     },
     {
-      "title": "Crusade Meeting 2",
-      "description": "Description of meeting 2",
-      "imageUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+      "title": "Perfection gospel healing crusade",
+      "description": "Perfection gospel healing crusade",
+      "imageUrl": "https://i.ytimg.com/vi/9RjVIMwZFcY/hq720.jpg",
       "videos": [
         {
-          "title": "Sermon 3",
-         "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
-          "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
+          "title": "Day 1",
+         "thumbnailUrl": "https://i.ytimg.com/vi/9RjVIMwZFcY/hq720.jpg",
+          "videoUrl": "https://www.youtube.com/live/9RjVIMwZFcY"
         }
       ]
     }
