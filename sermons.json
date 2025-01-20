@@ -12,8 +12,13 @@
         },
         {
           "title": "Day 2",
-         "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/fd_WYLLwKO0/hq720.jpg",
           "videoUrl": "https://www.youtube.com/watch?v=fd_WYLLwKO0"
+        },
+        {
+          "title": "Day 3",
+          "thumbnailUrl": "A",
+          "videoUrl": "A"
         }
       ]
     },
@@ -24,7 +29,7 @@
       "videos": [
         {
           "title": "Day 1",
-         "thumbnailUrl": "https://i.ytimg.com/vi/9RjVIMwZFcY/hq720.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9RjVIMwZFcY/hq720.jpg",
           "videoUrl": "https://www.youtube.com/watch?v=/9RjVIMwZFcY"
         }
       ]
