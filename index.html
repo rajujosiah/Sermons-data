@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Video Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Video Manager</h1>
+
+        <!-- Copy JSON Button -->
+        <div class="action-buttons">
+            <button onclick="copyJson()">Copy JSON</button>
+        </div>
+
+        <!-- Dropdown Section -->
+        <div class="dropdown-section">
+            <label for="eventDropdown">Select Event:</label>
+            <select id="eventDropdown" onchange="displayEventVideos()">
+                <option value="">-- Select an Event --</option>
+            </select>
+            <button onclick="toggleAddEventForm()">Add New Event</button>
+        </div>
+
+        <!-- Add Event Form -->
+        <div id="addEventForm" class="hidden">
+            <h2>Add New Event</h2>
+            <input type="text" id="newEventTitle" placeholder="Event Title">
+            <input type="text" id="newEventThumbnail" placeholder="Thumbnail URL">
+            <textarea id="newEventDescription" placeholder="Event Description"></textarea>
+            <button onclick="addEvent()">Save Event</button>
+        </div>
+
+        <!-- Video Grid Section -->
+        <h2>Event Videos</h2>
+        <div class="video-grid" id="videoGrid"></div>
+
+        <!-- Add Video Button -->
+        <div class="action-buttons">
+            <button onclick="toggleAddVideoForm()">Add New Video</button>
+        </div>
+
+        <!-- Add Video Form -->
+        <div id="addVideoForm" class="hidden">
+            <h2>Add New Video</h2>
+            <input type="text" id="videoTitle" placeholder="Video Title">
+            <input type="text" id="videoThumbnail" placeholder="Thumbnail URL">
+            <input type="text" id="videoUrl" placeholder="Video URL">
+            <button onclick="addVideoToEvent()">Save Video</button>
+        </div>
+
+        <!-- JSON Output -->
+        <h2>Export JSON</h2>
+        <div class="json-output">
+            <pre id="jsonOutput"></pre>
+        </div>
+
+        <!-- Copy JSON Button -->
+        <div class="action-buttons">
+            <button onclick="copyJson()">Copy JSON</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
